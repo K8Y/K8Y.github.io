@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+html, body {
+  height: 100;
+  width: 100;
+  font-family: "Hind", sans-serif;
+  color: #455A64;
+}
+.navbar{
+  padding: 12.8px;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 17.6px !important;
+}
+.nav_bg_color{
+  background-color: #C5CAE9;
+}
+.navbar-name{
+  color:#455A64;
+}
+.navbar-name:hover{
+  color:#455A64;
+  text-decoration: none;
+}
+.name-animate:hover{
+  animation-play-state: paused;
+  color:#455A64;
+}
+.name-animate:hover{
+  animation-play-state: running;
+  color:#455A64;
+  text-decoration: none;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.portrait{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+p.aboutMe{
+  text-align: left;
+  font-size: 120%;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.padding {
+  padding-bottom: 28px;
+  padding-top: 10px;
+}
+.social a{
+    font-size: 72px;
+    padding: 48px;
+}
+.fa-envelope, .fa-linkedin-in, .fa-github, .fa-code{
+  color:#9FA8DA;
+}
+.fa-envelope:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-code:hover{
+  color: #d5d5d5;
+}
+.connect{
+  background-color: #F8F9F9;
+}
+.fixed-bg{
+  background-image: url("./img/jack-cain-326608-unsplash.jpg");
+  min-height: 37.5rem;
+  width: auto;
+  background-attachment: fixed;
+  background-position: bottom - 70px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fixed-bg2{
+  background-image: url("./img/vincentiu-solomon-4602-unsplash.jpg");
+  opacity: 0.5;
+  height: 19rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-container{
+  position: relative;
+  text-align: center;
+  color: #C5CAE9;
+}
+.intro {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  color:#C5CAE9;
+}
+h1.intro-text{
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow:
+  -1px -1px 0 #4A235A,
+  1px -1px 0 #4A235A,
+  -1px 1px 0 #4A235A,
+  1px 1px 0 #4A235A;
+}
+#intro-description{
+  font-size: 120%;
+  font-weight: bold;
+  color: #C5CAE9;
+  text-shadow:
+  -1px -1px 0 #4A235A,
+  1px -1px 0 #4A235A,
+  -1px 1px 0 #4A235A,
+  1px 1px 0 #4A235A;
+}
+.card-img-top{
+  height: 16rem;
+}
+.card-body{
+  background-color: #E8EAF6;
+  height: 200px;
+  font-size: 16px;
+}
+.card{
+  border-color: #E8EAF6;
+}
+.card:hover{
+  transform: scale(1.05, 1.05);
+}
+.fade {
+  opacity: 0;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 16px;
+}
+/*--- For each screen size --*/
+@media only screen and (max-width: 767px) {
+  [class*="col-"] {
+      width: 100%;
+  }
+  .social{
+    transform: scale(.75, .75)
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px){
+
+}
